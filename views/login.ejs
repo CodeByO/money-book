@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container mt-4"> 
+        <form action="/auth/local" method="POST"> 
+          <div class="form-group"> 
+            <label>아이디</label> 
+            <input type="text" class="form-control" name="id" value="guest"> 
+          </div> 
+          <div class="form-group"> 
+            <label>비번</label> 
+            <input type="text" class="form-control" name="pw" value="guest"> 
+          </div>
+          <button type="submit" class="btn btn-danger">로그인</button> 
+        </form> 
+      </div> 
+</body>
+</html>

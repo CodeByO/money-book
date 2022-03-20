@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container mt-4"> 
+        <form action="/api/serach" method="POST"> 
+          <div class="form-group"> 
+            <label>수입/지출</label> 
+            <input type="text" class="form-control" name="inandout" value="수입"> 
+          </div> 
+          <div class="form-group">
+            <label>contents</label> 
+            <input type="text" class="form-control" name="contents" value="1월"> 
+          </div>
+          <div class="form-group"> 
+            <label>payment</label> 
+            <input type="text" class="form-control" name="payment" value="1"> 
+          </div>
+          <div class="form-group"> 
+            <label>category</label> 
+            <input type="text" class="form-control" name="category_main" value="1"> 
+          </div>
+          <div class="form-group"> 
+            <label>category</label> 
+            <input type="text" class="form-control" name="category_sub" value="1"> 
+          </div>
+          <div class="form-group"> 
+            <label>기간 ~부터</label> 
+            <input type="text" class="form-control" name="date_min" value="20220122"> 
+          </div>
+          <div class="form-group"> 
+            <label>기간 ~까지</label> 
+            <input type="text" class="form-control" name="date_max" value="20220130"> 
+          </div>
+          <div class="form-group"> 
+            <label>금액 ~부터</label> 
+            <input type="text" class="form-control" name="price_min" value="0"> 
+          </div>
+          <div class="form-group"> 
+            <label>금액 ~까지</label> 
+            <input type="text" class="form-control" name="price_max" value="100000"> 
+          </div>
+          <button type="submit" class="btn btn-danger">등록</button> 
+        </form> 
+      </div> 
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container mt-4"> 
+        <form action="/list/post" method="POST"> 
+          <div class="form-group"> 
+            <label>수입/지출/이체</label> 
+            <input type="text" class="form-control" name="inandout" value="수입"> 
+          </div> 
+          <div class="form-group"> 
+            <label>날짜</label> 
+            <input type="text" class="form-control" name="list_date" value="2022-01-23"> 
+          </div>
+          <div class="form-group"> 
+            <label>시간</label> 
+            <input type="text" class="form-control" name="list_time" value="19:58:00"> 
+          </div>
+          <div class="form-group"> 
+            <label>메인카테고리</label> 
+            <input type="text" class="form-control" name="category_main" value="1"> 
+          </div>
+          <div class="form-group"> 
+            <label>서브카테고리</label> 
+            <input type="text" class="form-control" name="category_sub" value="1"> 
+          </div>
+          <div class="form-group"> 
+            <label>내용</label> 
+            <input type="text" class="form-control" name="contents" value="용돈"> 
+          </div>
+          <div class="form-group"> 
+            <label>결제수단</label> 
+            <input type="text" class="form-control" name="payment" value="1"> 
+          </div>
+          <div class="form-group"> 
+            <label>가격</label> 
+            <input type="text" class="form-control" name="price" value="100000"> 
+          </div>
+          <div class="form-group"> 
+            <label>할부</label> 
+            <input type="text" class="form-control" name="installment" value="0"> 
+          </div>
+          <div class="form-group"> 
+            <label>반복</label> 
+            <input type="text" class="form-control" name="pay_repeat" value="0"> 
+          </div>
+          <div class="form-group"> 
+            <label>내역조회</label> 
+            <input type="text" class="form-control" name="out_of_list" value="0"> 
+          </div>
+          <div class="form-group"> 
+            <label>리스트번호</label> 
+            <input type="text" class="form-control" name="list_id" value="new"> 
+          </div>
+          <button type="submit" class="btn btn-danger">등록</button> 
+        </form> 
+        <button type="submit" class="btn btn-danger" >카테고리</button>
+        <form action="/list/post" method="POST"> 
+          <div class="form-group"> 
+            <label>수입/지출/이체</label> 
+            <input type="text" class="form-control" name="inandout" value="지출"> 
+          </div> 
+          <div class="form-group"> 
+            <label>날짜</label> 
+            <input type="text" class="form-control" name="list_date" value="2022-01-23"> 
+          </div>
+          <div class="form-group"> 
+            <label>시간</label> 
+            <input type="text" class="form-control" name="list_time" value="19:58:00"> 
+          </div>
+          <div class="form-group"> 
+            <label>메인카테고리</label> 
+            <input type="text" class="form-control" name="category_main" value="2"> 
+          </div>
+          <div class="form-group"> 
+            <label>서브카테고리</label> 
+            <input type="text" class="form-control" name="category_sub" value="2"> 
+          </div>
+          <div class="form-group"> 
+            <label>내용</label> 
+            <input type="text" class="form-control" name="contents" value="용돈"> 
+          </div>
+          <div class="form-group"> 
+            <label>결제수단</label> 
+            <input type="text" class="form-control" name="payment" value="2"> 
+          </div>
+          <div class="form-group"> 
+            <label>가격</label> 
+            <input type="text" class="form-control" name="price" value="100000"> 
+          </div>
+          <div class="form-group"> 
+            <label>할부</label> 
+            <input type="text" class="form-control" name="installment" value="0"> 
+          </div>
+          <div class="form-group"> 
+            <label>반복</label> 
+            <input type="text" class="form-control" name="pay_repeat" value="0"> 
+          </div>
+          <div class="form-group"> 
+            <label>내역조회</label> 
+            <input type="text" class="form-control" name="out_of_list" value="0"> 
+          </div>
+          <div class="form-group"> 
+            <label>리스트번호</label> 
+            <input type="text" class="form-control" name="list_id" value="new"> 
+          </div>
+          <button type="submit" class="btn btn-danger">등록</button> 
+        </form> 
+</body>
+</html>
